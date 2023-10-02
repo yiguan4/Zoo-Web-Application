@@ -1,0 +1,106 @@
+<!---SJSU CMPE 138 Fall 2021 TEAM6--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="update_visitor.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Update an existing visitor</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_id">Please enter a update visitor ID:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_id" name="update_visitor_id" type="text" placeholder="visitor ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_name">Please enter a update visitor name:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_name" name="update_visitor_name" type="text" placeholder="visitor name" class="form-control input-md" required="">
+              <span class="help-block">1-15 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_gender">Please enter gender of the update visitor:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_gender" name="update_visitor_gender" type="text" placeholder="visitor gender" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_phone">Please enter phone number of the update visitor:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_phone" name="update_visitor_phone" type="text" placeholder="visitor phone" class="form-control input-md" required="">
+              <span class="help-block">1-12 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_email">Please enter email of the update visitor:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_email" name="update_visitor_email" type="text" placeholder="visitor email" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_password">Please enter password of the update visitor:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_password" name="update_visitor_password" type="text" placeholder="visitor password" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_visitor_age">Please enter age of the update visitor:</label>
+              <div class="col-md-4">
+              <input id="update_visitor_age" name="update_visitor_age" type="text" placeholder="age" class="form-control input-md" required="">
+              <span class="help-block">1-11 integers</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="update_visitor_serverid">Please enter server id of the update visitor:</label>
+                <div class="col-md-4">
+                <input id="update_visitor_serverid" name="update_visitor_serverid" type="text" placeholder="serverid" class="form-control input-md" required="">
+                <span class="help-block">1-6 characters</span>
+                </div>
+              </div>
+
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+            <a href="index.php">Return to action page</a>
+
+    </body>
+</html>

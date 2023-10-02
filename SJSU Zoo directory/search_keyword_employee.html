@@ -1,0 +1,49 @@
+<!---SJSU CMPE 138 Fall 2021 TEAM6--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="search_keyword_employee.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Search for an employee with keyword</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="department_employee">Please enter the department of the employee</label>
+              <div class="col-md-4">
+              <input id="department_employee" name="department_employee" type="text" placeholder="department of employee" class="form-control input-md" required="">
+              <span class="help-block">'at_employee' or 'event_employee' or 'vs_employee'</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="keyword_employee">Please enter the keyword of the employee name</label>
+                <div class="col-md-4">
+                <input id="keyword_employee" name="keyword_employee" type="text" placeholder="employee keyword" class="form-control input-md" required="">
+                <span class="help-block">1-30 characters</span>
+                </div>
+              </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+                <div class="col-md-4">
+                  <button id="submit" name="submit" class="btn btn-primary">Search</button>
+                </div>
+              </div>
+
+              </fieldset>
+              </form>
+              <a href="index.php">Return to action page</a>

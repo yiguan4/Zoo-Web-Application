@@ -1,0 +1,54 @@
+<!---
+SJSU CMPE 138 Fall 2021 TEAM6
+--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="delete_animal_participated.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Delete an participated animal</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="delete_event_id">Please enter the ID of the event</label>
+              <div class="col-md-4">
+              <input id="delete_event_id" name="delete_event_id" type="text" placeholder="event ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="delete_animal_id">Please enter the ID of the animal</label>
+              <div class="col-md-4">
+              <input id="delete_animal_id" name="delete_animal_id" type="text" placeholder="animal ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+                <div class="col-md-4">
+                  <button id="submit" name="submit" class="btn btn-primary">Delete</button>
+                </div>
+              </div>
+
+              </fieldset>
+              </form>
+              <a href="index.php">Return to action page</a>
+
+      </body>
+  </html>

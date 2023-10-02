@@ -1,0 +1,42 @@
+<!---SJSU CMPE 138 Fall 2021 TEAM6--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="purchase_ticket.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Add a new event</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="uid">Please enter your name:</label>
+              <div class="col-md-4">
+              <input id="uid" name="uid" type="text" placeholder="your name" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-primary">Purchase</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+            <a href="index.php">Return to action page</a>
+    </body>
+</html>

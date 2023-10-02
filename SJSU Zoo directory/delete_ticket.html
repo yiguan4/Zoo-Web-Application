@@ -1,0 +1,45 @@
+<!---
+SJSU CMPE 138 Fall 2021 TEAM6
+--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="delete_ticket.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Delete an existing participated animal trainer</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="delete_ticket_id">Please enter the ticket ID</label>
+              <div class="col-md-4">
+              <input id="delete_ticket_id" name="delete_ticket_id" type="text" placeholder="ticket ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="submit"></label>
+                <div class="col-md-4">
+                  <button id="submit" name="submit" class="btn btn-primary">Delete</button>
+                </div>
+              </div>
+
+              </fieldset>
+              </form>
+              <a href="index.php">Return to action page</a>
+
+      </body>
+  </html>

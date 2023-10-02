@@ -1,0 +1,90 @@
+<!---
+SJSU CMPE 138 Fall 2021 TEAM6
+--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="add_event.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Add a new event</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="new_event_id">Please enter a new event ID:</label>
+              <div class="col-md-4">
+              <input id="new_event_id" name="new_event_id" type="text" placeholder="event ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="new_event_name">Please enter a new event name:</label>
+              <div class="col-md-4">
+              <input id="new_event_name" name="new_event_name" type="text" placeholder="event name" class="form-control input-md" required="">
+              <span class="help-block">1-15 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="new_event_location">Please enter location of the new event:</label>
+              <div class="col-md-4">
+              <input id="new_event_location" name="new_event_location" type="text" placeholder="location" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="new_event_time">Please enter time of the new event:</label>
+                <div class="col-md-4">
+                <input id="new_event_time" name="new_event_time" type="text" placeholder="time" class="form-control input-md" required="">
+                <span class="help-block">1-6 characters</span>
+                </div>
+              </div>
+
+            <!-- Text input
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="new_at_employee_id">Please enter the pid of participated animal trainer:</label>
+              <div class="col-md-4">
+              <input id="new_at_employee_id" name="new_at_employee_id" type="text" placeholder="animal trainer id" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+            -->
+            <!-- Text input
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="new_animal_id">Please enter the id of participated animal:</label>
+              <div class="col-md-4">
+              <input id="new_animal_id" name="new_animal_id" type="text" placeholder="Animal id" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+            -->
+
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+            <a href="index.php">Return to action page</a>
+    </body>
+</html>

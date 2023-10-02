@@ -1,0 +1,69 @@
+<!---SJSU CMPE 138 Fall 2021 TEAM6--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="update_event.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>update an existing event</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_event_id">Please enter a update event ID:</label>
+              <div class="col-md-4">
+              <input id="update_event_id" name="update_event_id" type="text" placeholder="event ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_event_name">Please enter a update event name:</label>
+              <div class="col-md-4">
+              <input id="update_event_name" name="update_event_name" type="text" placeholder="event name" class="form-control input-md" required="">
+              <span class="help-block">1-15 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_event_location">Please enter location of the update event:</label>
+              <div class="col-md-4">
+              <input id="update_event_location" name="update_event_location" type="text" placeholder="location" class="form-control input-md" required="">
+              <span class="help-block">1-11 integers</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="update_event_time">Please enter time of the update event:</label>
+                <div class="col-md-4">
+                <input id="update_event_time" name="update_event_time" type="text" placeholder="time" class="form-control input-md" required="">
+                <span class="help-block">1-6 characters</span>
+                </div>
+              </div>
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-primary">update</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+            <a href="index.php">Return to action page</a>
+
+    </body>
+</html>

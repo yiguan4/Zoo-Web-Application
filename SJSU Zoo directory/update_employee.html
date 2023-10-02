@@ -1,0 +1,106 @@
+<!---SJSU CMPE 138 Fall 2021 TEAM6--->
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <form class="form-horizontal" action="update_employee.php">
+            <fieldset>
+
+            <!-- Form Name -->
+            <legend>Update an existing employee</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="department_employee">Please enter the department of the employee</label>
+              <div class="col-md-4">
+              <input id="department_employee" name="department_employee" type="text" placeholder="department of employee" class="form-control input-md" required="">
+              <span class="help-block">'at_employee' or 'event_employee' or 'vs_employee'</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_id">Please enter a update employee ID:</label>
+              <div class="col-md-4">
+              <input id="update_employee_id" name="update_employee_id" type="text" placeholder="employee ID" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_name">Please enter a update employee name:</label>
+              <div class="col-md-4">
+              <input id="update_employee_name" name="update_employee_name" type="text" placeholder="employee name" class="form-control input-md" required="">
+              <span class="help-block">1-15 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_gender">Please enter gender of the update employee:</label>
+              <div class="col-md-4">
+              <input id="update_employee_gender" name="update_employee_gender" type="text" placeholder="employee gender" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_phone">Please enter phone number of the update employee:</label>
+              <div class="col-md-4">
+              <input id="update_employee_phone" name="update_employee_phone" type="text" placeholder="employee phone" class="form-control input-md" required="">
+              <span class="help-block">1-12 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_email">Please enter email of the update employee:</label>
+              <div class="col-md-4">
+              <input id="update_employee_email" name="update_employee_email" type="text" placeholder="employee email" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_password">Please enter password of the update employee:</label>
+              <div class="col-md-4">
+              <input id="update_employee_password" name="update_employee_password" type="text" placeholder="employee password" class="form-control input-md" required="">
+              <span class="help-block">1-30 characters</span>
+              </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="update_employee_did">Please enter zoo department ID of the update employee:</label>
+              <div class="col-md-4">
+              <input id="update_employee_did" name="update_employee_did" type="text" placeholder="department id" class="form-control input-md" required="">
+              <span class="help-block">1-6 characters</span>
+              </div>
+            </div>
+
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-4">
+                <button id="submit" name="submit" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+
+            </fieldset>
+            </form>
+            <a href="index.php">Return to action page</a>
+
+    </body>
+</html>
